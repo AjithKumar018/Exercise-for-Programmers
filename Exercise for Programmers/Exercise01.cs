@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_1
+namespace Exercise_for_Programmers
 {
-    class Program
+    class Exercise01
     {
-        static void Main(string[] args)
+        public void Solution()
         {
             string strHello;
 

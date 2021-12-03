@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_7
+namespace Exercise_for_Programmers
 {
-    class Program
+    class Exercise07
     {
-        static void Main(string[] args)
+        public void Solution()
         {
             int nLength, nWidth, nSquareFeet;
             double dSquareMeters;
