@@ -10,12 +10,12 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            int nPin;
+            String strPin;
 
             Console.Write("What is the password? ");
-            nPin = Convert.ToInt32(Console.ReadLine());
+            strPin = Console.ReadLine();
 
-            if (nPin != 12345 )
+            if (strPin != "abc$123")
             {
                 Console.WriteLine("I don't know you.\n");
             }

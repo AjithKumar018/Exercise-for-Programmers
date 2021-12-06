@@ -10,7 +10,7 @@ namespace Exercise_for_Programmers
     {
         static void Main(string[] args)
         {
-            Exercise12 sol = new Exercise12();
+            Exercise15 sol = new Exercise15();
             sol.Solution();
         }
     }
