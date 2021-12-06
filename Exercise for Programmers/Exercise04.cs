@@ -24,7 +24,7 @@ namespace Exercise_for_Programmers
             Console.Write("Enter an adverb: ");
             strAdverb = Console.ReadLine();
 
-            Console.Write("Do you " + strVerb + " your " + strAdjective + " " + strNoun + " " + strAdverb + "? That's hilarious! \n");
+            Console.Write("Do you " + strVerb + " your " + strAdjective + " " + strNoun + " " + strAdverb + "? That's hilarious! \n\n");
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Exercise_for_Programmers
             strTxt = Console.ReadLine();
 
 
-            Console.WriteLine(strTxt + " has" + " " + strTxt.Length + " Characters.");
+            Console.WriteLine(strTxt + " has" + " " + strTxt.Length + " Characters.\n");
         }
     }
 }

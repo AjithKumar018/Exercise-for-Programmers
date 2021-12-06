@@ -15,7 +15,7 @@ namespace Exercise_for_Programmers
             Console.Write("What is Your Name? ");
             strHello = Console.ReadLine();
 
-            Console.WriteLine("Hello, " + strHello + ", nice to meet you!");
+            Console.WriteLine("Hello, " + strHello + ", nice to meet you!\n");
         }
     }
 }

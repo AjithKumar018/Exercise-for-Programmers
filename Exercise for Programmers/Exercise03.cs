@@ -15,7 +15,7 @@ namespace Exercise_for_Programmers
             Console.Write("What is the quote? These aren't the droids you're looking for. \nWho said it? ");
             strTxt = Console.ReadLine();
 
-            Console.WriteLine(strTxt + " says, \"These aren't the droids you're looking for.\"");
+            Console.WriteLine(strTxt + " says, \"These aren't the droids you're looking for.\"\n");
         }
     }
 }
