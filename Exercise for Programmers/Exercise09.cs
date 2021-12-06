@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise_for_Programmers
 {
-    class Program
+    class Exercise09
     {
-        static void Main(string[] args)
-        {
-            Exercise12 sol = new Exercise12();
-            sol.Solution();
-        }
     }
 }
