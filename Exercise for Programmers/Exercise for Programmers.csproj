@@ -52,9 +52,14 @@
     <Compile Include="Exercise07.cs" />
     <Compile Include="Exercise08.cs" />
     <Compile Include="Exercise09.cs" />
+    <Compile Include="Exercise10.cs" />
+    <Compile Include="Exercise11.cs" />
     <Compile Include="Exercise12.cs" />
+    <Compile Include="Exercise13.cs" />
+    <Compile Include="Exercise14.cs" />
     <Compile Include="Exercise15.cs" />
     <Compile Include="Exercise16.cs" />
+    <Compile Include="Exercise17.cs" />
     <Compile Include="Exercise18.cs" />
     <Compile Include="Exercise19.cs" />
     <Compile Include="Exercise21.cs" />
