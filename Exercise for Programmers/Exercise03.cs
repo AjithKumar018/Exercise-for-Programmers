@@ -10,12 +10,15 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            string strTxt;
+            string strText, strName;
 
-            Console.Write("What is the quote? These aren't the droids you're looking for. \nWho said it? ");
-            strTxt = Console.ReadLine();
+            Console.Write("What is the quote? ");
+            strText = Console.ReadLine();
 
-            Console.WriteLine(strTxt + " says, \"These aren't the droids you're looking for.\"\n");
+            Console.Write("Who said it? ");
+            strName = Console.ReadLine();
+
+            Console.WriteLine(strName + " says, " + "\"" + strText + "\"\n");
         }
     }
 }

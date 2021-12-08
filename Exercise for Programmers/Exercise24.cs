@@ -10,24 +10,35 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            string strFString, strSString;
-
             Console.WriteLine("Enter two strings and I'll tell you if they are anagrams: ");
 
-            Console.Write("Enter the first string : ");
-            strFString = Console.ReadLine();
+            Console.Write("Enter the first string: ");
+            string strFString = Console.ReadLine();
 
             Console.Write("Enter the second string: ");
-            strSString = Console.ReadLine();
+            string strSString = Console.ReadLine();
 
-            if (strFString == strSString)
+            if (IsAnagram(strFString, strSString))
             {
-                Console.Write("\n" + "\"" + strFString + "\"" + " and " + "\"" + strSString + "\"" + " are anagrams. \n\n");
+                Console.WriteLine("\"" + strFString + "\" and " + "\"" + strSString + "\" are anagrams.\n");
             }
             else
             {
-                Console.Write("\n" + "\"" + strFString + "\"" + " and " + "\"" + strSString + "\"" + " are not anagrams. \n\n");
+                Console.WriteLine("\"" + strFString + "\" and " + "\"" + strSString + "\" are not anagrams.\n");
+            }            
+        }
+
+        public bool IsAnagram(string str1, string str2)
+        {
+            foreach(char i in str1)
+            {
+                if (str2.IndexOf(i)== -1)
+                {
+                    return false;
+                }
             }
+
+            return true;
         }
     }
 }
