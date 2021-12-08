@@ -20,7 +20,7 @@ namespace Exercise_for_Programmers
 
             dBMI = (dWeight / (dHeight * dHeight)) * 703;
 
-            Console.Write("\n\nYour BMI is " + dBMI);           
+            Console.Write("\n\nYour BMI is " + Math.Round(dBMI,2));    
 
             if (dBMI > 18.5 && dBMI < 25) 
             {
