@@ -19,14 +19,14 @@ namespace Exercise_for_Programmers
             Console.Write("\nYour Choice: ");
             strChoice = Console.ReadLine();
 
-            if (strChoice == "c")
+            if (strChoice == "c" || strChoice == "C")
             {
                 Console.Write("Please enter the temperature in Fahrenheit: ");
                 nFahrenheit = Convert.ToInt32(Console.ReadLine());
                 dC = (nFahrenheit - 32) * 5 / 9;
                 Console.WriteLine(dC);
             }
-            else if (strChoice == "f")
+            else if (strChoice == "f" || strChoice == "F")
             {
                 Console.Write("Please enter the temperature in Celsius: ");
                 nCelsius = Convert.ToInt32(Console.ReadLine());
