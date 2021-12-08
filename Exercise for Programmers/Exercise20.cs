@@ -24,31 +24,31 @@ namespace Exercise_for_Programmers
 
             if (strState == "Wisconsin" || strState == "wisconsin")
             {
-                dTax = nAmt * 5.05 / 100;
+                dTax = nAmt * 5.0 / 100;
                 dTotal = dTax + nAmt;
-                Console.Write("The tax is $" + Math.Round(dTax, 3) + ".\n");
-                Console.Write("The total is $" + Math.Round(dTotal, 3) + ".\n");
+                Console.Write("The tax is $" + Math.Round(dTax, 2) + ".\n");
+                Console.Write("The total is $" + Math.Round(dTotal, 2) + ".\n");
             }
             else if (strState == "EauClaire" || strState == "eauclaire")
             {
-                dTax = nAmt * 5.055 / 100;
+                dTax = nAmt * 5.005 / 100;
                 dTotal = dTax + nAmt;
-                Console.Write("The tax is $" + Math.Round(dTax, 3) + ".\n");
-                Console.Write("The total is $" + Math.Round(dTotal, 3) + ".\n");
+                Console.Write("The tax is $" + Math.Round(dTax, 2) + ".\n");
+                Console.Write("The total is $" + Math.Round(dTotal, 2) + ".\n");
             }
             else if (strState == "Dunn" || strState == "dunn")
             {
-                dTax = nAmt * 5.054 / 100;
+                dTax = nAmt * 5.004 / 100;
                 dTotal = dTax + nAmt;
-                Console.Write("The tax is $" + Math.Round(dTax, 3) + ".\n");
-                Console.Write("The total is $" + Math.Round(dTotal, 3) + ".\n");
+                Console.Write("The tax is $" + Math.Round(dTax, 2) + ".\n");
+                Console.Write("The total is $" + Math.Round(dTotal, 2) + ".\n");
             }
             else if (strState == "Illinois" || strState == "illinois")
             {
                 dTax = nAmt * 8.00 / 100;
                 dTotal = dTax + nAmt;
-                Console.Write("The tax is $" + Math.Round(dTax, 3) + ".\n");
-                Console.Write("The total is $" + Math.Round(dTotal, 3) + ".\n");
+                Console.Write("The tax is $" + Math.Round(dTax, 2) + ".\n");
+                Console.Write("The total is $" + Math.Round(dTotal, 2) + ".\n");
             }
 
         }
