@@ -10,7 +10,7 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            int nLength, nWidth, nPaint, nSqrFeet;
+            int nLength, nWidth, nPaint, nSqFeet;
 
             Console.Write("Length: ");
             nLength = Convert.ToInt32(Console.ReadLine());
@@ -18,18 +18,18 @@ namespace Exercise_for_Programmers
             Console.Write("Width: ");
             nWidth = Convert.ToInt32(Console.ReadLine());
 
-            nSqrFeet = nLength * nWidth;
+            nSqFeet = nLength * nWidth;
 
-            if(nSqrFeet % 350 == 0)
+            if(nSqFeet % 350 == 0)
             {
-                nPaint = (nSqrFeet / 350);
+                nPaint = (nSqFeet / 350);
             }
             else
             {
-                nPaint = (nSqrFeet / 350) + 1;
+                nPaint = (nSqFeet / 350) + 1;
             }
 
-            Console.WriteLine("\nYou will need to purchase " + nPaint + " gallons of paint to cover " + nSqrFeet + " square feet.\n");
+            Console.WriteLine("\nYou will need to purchase " + nPaint + " gallons of paint to cover " + nSqFeet + " square feet.\n");
         }
     }
 }

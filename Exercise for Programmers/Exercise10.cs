@@ -43,11 +43,11 @@ namespace Exercise_for_Programmers
 
             dTax = 0.055 * dSTotal;
 
-            Console.Write("\nTax: $" + Math.Round(dTax,2) + "\n");
+            Console.Write("\nTax: $" + Math.Round(dTax, 2) + "\n");
 
             dTotal = dTax + dSTotal;
 
-            Console.Write("\nTotal: $" + Math.Round(dTotal,2) + "\n\n");
+            Console.Write("\nTotal: $" + Math.Round(dTotal, 2) + "\n\n");
 
         }
     }

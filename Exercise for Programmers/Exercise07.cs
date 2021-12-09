@@ -10,7 +10,7 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            int nLength, nWidth, nSquareFeet;
+            int nLength, nWidth, nSqFeet;
             double dSquareMeters;
 
             Console.Write("What is the length of the room in feet? ");
@@ -21,11 +21,11 @@ namespace Exercise_for_Programmers
 
             Console.Write("\nYou entered dimensions of " + nLength + " feet by " + nWidth + " feet.");
 
-            nSquareFeet = nLength * nWidth;
+            nSqFeet = nLength * nWidth;
 
-            dSquareMeters = (nSquareFeet * 0.09290304);
+            dSquareMeters = (nSqFeet * 0.09290304);
 
-            Console.Write("\n\nThe area is " + nSquareFeet + " square feet, " + "\n" + Math.Round(dSquareMeters, 3) + " square meters. \n");
+            Console.Write("\n\nThe area is " + nSqFeet + " square feet, " + "\n" + Math.Round(dSquareMeters, 3) + " square meters. \n");
 
         }
     }

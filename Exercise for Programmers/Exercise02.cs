@@ -10,13 +10,13 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            string strTxt;
+            string strInput;
 
             Console.Write("What is the input string? ");
-            strTxt = Console.ReadLine();
+            strInput = Console.ReadLine();
 
 
-            Console.WriteLine(strTxt + " has" + " " + strTxt.Length + " Characters.\n");
+            Console.WriteLine(strInput + " has" + " " + strInput.Length + " Characters.\n");
         }
     }
 }

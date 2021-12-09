@@ -10,12 +10,12 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            string strHello;
+            string strName;
 
             Console.Write("What is Your Name? ");
-            strHello = Console.ReadLine();
+            strName = Console.ReadLine();
 
-            Console.WriteLine("Hello, " + strHello + ", nice to meet you!\n");
+            Console.WriteLine("Hello, " + strName + ", nice to meet you!\n");
         }
     }
 }

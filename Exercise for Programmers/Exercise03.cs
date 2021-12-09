@@ -10,15 +10,15 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            string strText, strName;
+            string strQuote, strName;
 
             Console.Write("What is the quote? ");
-            strText = Console.ReadLine();
+            strQuote = Console.ReadLine();
 
             Console.Write("Who said it? ");
             strName = Console.ReadLine();
 
-            Console.WriteLine(strName + " says, " + "\"" + strText + "\"\n");
+            Console.WriteLine(strName + " says, " + "\"" + strQuote + "\"\n");
         }
     }
 }

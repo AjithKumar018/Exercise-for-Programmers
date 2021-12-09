@@ -10,7 +10,7 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            int nFirstNumber, nSecondNumber, nAdd, nSub, nMultiply, nDivide;
+            int nFirstNumber, nSecondNumber, nAdd, nSub, nMult, nDiv;
 
             Console.Write("What is the first number? ");
             nFirstNumber = Convert.ToInt32(Console.ReadLine());
@@ -20,13 +20,13 @@ namespace Exercise_for_Programmers
 
             nAdd = nFirstNumber + nSecondNumber;
             nSub = nFirstNumber - nSecondNumber;
-            nMultiply = nFirstNumber * nSecondNumber;
-            nDivide = nFirstNumber / nSecondNumber;
+            nMult = nFirstNumber * nSecondNumber;
+            nDiv = nFirstNumber / nSecondNumber;
 
             Console.WriteLine(nFirstNumber + " + " + nSecondNumber + " = " + nAdd);
             Console.WriteLine(nFirstNumber + " - " + nSecondNumber + " = " + nSub);
-            Console.WriteLine(nFirstNumber + " * " + nSecondNumber + " = " + nMultiply);
-            Console.WriteLine(nFirstNumber + " / " + nSecondNumber + " = " + nDivide);
+            Console.WriteLine(nFirstNumber + " * " + nSecondNumber + " = " + nMult);
+            Console.WriteLine(nFirstNumber + " / " + nSecondNumber + " = " + nDiv);
         }
     }
 }

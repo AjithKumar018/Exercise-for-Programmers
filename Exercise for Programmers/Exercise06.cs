@@ -10,22 +10,22 @@ namespace Exercise_for_Programmers
     {
         public void Solution()
         {
-            int nAge, nRetireAge, nCurrentYear, nLeftYears, nRetireYear;
+            int nAge, nRetAge, nCurYear, nLeftYears, nRetYear;
 
             Console.Write("What is your current age? ");
             nAge = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("At what age would you like to retire? ");
-            nRetireAge = Convert.ToInt32(Console.ReadLine());
+            nRetAge = Convert.ToInt32(Console.ReadLine());
 
-            nCurrentYear = 2021;
+            nCurYear = 2021;
 
-            nLeftYears = nRetireAge - nAge;
+            nLeftYears = nRetAge - nAge;
 
-            nRetireYear = nCurrentYear + nLeftYears;
+            nRetYear = nCurYear + nLeftYears;
 
             Console.WriteLine("\nYou have " + nLeftYears + " years left until you can retire.");
-            Console.WriteLine("It's " + nCurrentYear + ", so you can retire in " + nRetireYear + ".");
+            Console.WriteLine("It's " + nCurYear + ", so you can retire in " + nRetYear + ".");
 
         }
     }
