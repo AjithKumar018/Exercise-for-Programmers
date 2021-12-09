@@ -8,61 +8,63 @@ namespace Exercise_for_Programmers
 {
 	class Exercise25
 	{
-		int nNumber = 0;
+		int nNumb = 0;
+
 		public void Solution()
 		{
-			string strPassword;
+			string strPass;
+
 			Console.Write("Enter the Password: ");
-			strPassword = Console.ReadLine();
+			strPass = Console.ReadLine();
 
-			passwordValidator(strPassword);
+			passwordValidator(strPass);
+
 		}
-
-		public void passwordValidator(string pass)
+		public void passwordValidator(string password)
 		{
-			string password = pass;
-			int nLen = password.Length;
+			string pass = password;
+			int nLen = pass.Length;
 
 			for (int i = 0; i < nLen; i++)
 			{
-				if (char.IsDigit(password[i]) && nLen < 8)
+				if (char.IsDigit(pass[i]) && nLen < 8)
 				{
-					nNumber = 1;
+					nNumb = 1;
 				}
-				else if (char.IsLetter(password[i]) && nLen < 8)
+				else if (char.IsLetter(pass[i]) && nLen > 8)
 				{
-					nNumber = 2;
+					nNumb = 2;
 				}
 				else if (nLen >= 8)
 				{
-					if (char.IsLetterOrDigit(password[i]))
+					if (char.IsLetterOrDigit(pass[i]))
 					{
-						nNumber = 3;
+						nNumb = 3;
 					}
 					else
 					{
-						nNumber = 4;
+						nNumb = 4;
 					}
 				}
 			}
 
-			switch (nNumber)
-			{
+			switch (nNumb)
+            {
 				case 1:
-					Console.WriteLine("Very Weak Password.\n");
+					Console.Write("Very Weak Password.\n");
 					break;
 				case 2:
-					Console.WriteLine("Weak Password.\n");
+					Console.Write("Weak Password.\n");
 					break;
 				case 3:
-					Console.WriteLine("Strong Password.\n");
+					Console.Write("Strong Password.\n");
 					break;
 				case 4:
-					Console.WriteLine("Very Strong Password. \n");
+					Console.Write("Very Strong Password.\n");
 					break;
 				default:
 					break;
-			}
+            }
 		}
 	}
 }
